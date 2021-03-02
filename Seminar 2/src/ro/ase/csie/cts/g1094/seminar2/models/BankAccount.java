@@ -14,5 +14,4 @@ public abstract class BankAccount extends Account{
 		return this.balance;
 	}
 	
-	
 }
