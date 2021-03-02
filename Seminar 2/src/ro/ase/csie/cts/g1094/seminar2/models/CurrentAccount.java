@@ -35,6 +35,5 @@ public class CurrentAccount extends BankAccount {
 			this.balance -= amount;
 	}
 
-	
 
 }
