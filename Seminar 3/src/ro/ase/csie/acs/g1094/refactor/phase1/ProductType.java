@@ -1,5 +1,7 @@
 package ro.ase.csie.acs.g1094.refactor.phase1;
 
+
+
 public enum ProductType {
 
 	NEW(0),

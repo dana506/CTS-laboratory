@@ -1,5 +1,9 @@
 package ro.ase.csie.acs.g1094.refactor.phase1;
 
+import ro.ase.acs.g1094.refactor.exceptions.InvalidAgeException;
+import ro.ase.acs.g1094.refactor.exceptions.InvalidPriceException;
+
+
 public class Product {
 
 	public static final int MAX_AGE_ACCOUNT = 10;
