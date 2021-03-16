@@ -14,7 +14,7 @@ public class TestLiskov {
 		
 		//for Students
 		Student student = new Student();
-		walk(student);
+		//walk(student);
 		
 	}
 
