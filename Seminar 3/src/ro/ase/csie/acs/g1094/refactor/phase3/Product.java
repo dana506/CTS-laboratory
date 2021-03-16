@@ -3,13 +3,13 @@ package ro.ase.csie.acs.g1094.refactor.phase3;
 import ro.ase.acs.g1094.refactor.exceptions.InvalidAgeException;
 import ro.ase.acs.g1094.refactor.exceptions.InvalidPriceException;
 import ro.ase.csie.cts.g1094.refactor.phase3.services.MarketingServiceInterface;
+import ro.ase.csie.cts.g1094.refactor.phase3.services.ValidatorServiceInterface;
 
 public class Product {
 	
-	 private MarketingServiceInterface marketingServiceInterface;
-	
 
 	MarketingServiceInterface mkService = null;
+	ValidatorServiceInterface validator = null;
 	
 	 public Product (MarketingServiceInterface marketingServiceInterface) {
 	        if(marketingServiceInterface == null) {

@@ -10,6 +10,7 @@ Phase 1 - Naming Conventions
 - remove the hard-coded values aka "magic numbers"
 - add validations for input values
 
+
 Phase 2 - KISS & Single Responsibility
 
 -simplify the expressions
@@ -21,3 +22,4 @@ Phase 3
 -single Responsibility & Dependency Inversion (DIP)
 -the static final value may change when marketing strategy will change
 -getFidelityDiscount() may change when the marketing strategy will change
+-remove the dependency on the validation rules

@@ -5,6 +5,6 @@ public interface MarketingServiceInterface {
     int FIDELITY_YEARS_THRESHOLD = 10;
     float MAX_FIDELITY_DISCOUNT = 0.15f;
 
-   float getFidelityDiscount(int yearsSinceRegistration);
+   float getFidelityDiscount(int accountAge);
    
 }
